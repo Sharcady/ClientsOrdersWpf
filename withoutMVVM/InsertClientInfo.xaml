@@ -1,0 +1,19 @@
+﻿<Window x:Class="withoutMVVM.InsertClientInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:withoutMVVM"
+        mc:Ignorable="d"
+        Title="Insert Client Info" Height="500" Width="600">
+    <Grid>
+        <Button Name="SaveNewClient_Button" Content="Save New Client" HorizontalAlignment="Left" Margin="39,310,0,0" VerticalAlignment="Top" Width="143" Height="34" Click="SaveNewClient_Button_Click"/>
+        <TextBox Name="nameBox"  HorizontalAlignment="Left" Height="23" Margin="39,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="443"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,74,0,0" TextWrapping="Wrap" Text="Enter name" VerticalAlignment="Top"/>
+        <TextBox x:Name="addressBox" HorizontalAlignment="Left" Height="23" Margin="39,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="443"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,147,0,0" TextWrapping="Wrap" Text="Enter address" VerticalAlignment="Top"/>
+        <CheckBox Name="vip" Content="VIP Client" HorizontalAlignment="Left" Margin="39,229,0,0" VerticalAlignment="Top" Height="23" Width="148"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="339,310,0,0" VerticalAlignment="Top" Width="143" Height="34" Click="CloseCliInfo_Click"/>
+
+    </Grid>
+</Window>
