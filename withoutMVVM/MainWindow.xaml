@@ -12,15 +12,8 @@
     <Grid>
         <StackPanel Width="350" HorizontalAlignment="Left" >
             <DataGrid Name="masterGrid" Background="Aqua" Height="430" AutoGenerateColumns="True" MouseLeftButtonUp="masterGrid_MouseLeftButtonUp">
-                <DataGrid.RowStyle>
-                    <Style TargetType="DataGridRow">
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding Path=IsVip} ">
-                                <Setter Property="Background" Value="#FF339138"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </DataGrid.RowStyle>
+                
+                
             </DataGrid>
             
             <Grid>

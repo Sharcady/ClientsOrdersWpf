@@ -197,7 +197,7 @@ namespace withoutMVVM
 
             detailGrid.DataContext = dt;
             
-            for(int i; i<masterGrid.Rows)
+            
         }
 #endregion
 
